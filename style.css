@@ -1,0 +1,36 @@
+body {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Cormorant", serif;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+.container {
+  padding: 0 10vw;
+  margin: 0 auto;
+}
+.nav {
+  margin: 0px auto;
+  max-width: 1260px;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.home-tittle {
+  flex-grow: 1;
+  max-width: 50%;
+}
+.nav-div {
+  flex-grow: 1;
+  max-width: 50%;
+}
+.nav-list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+.nav-list li {
+  flex: 1;
+}
+
+@media (max-width: 730px) {
+}
