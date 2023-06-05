@@ -14,15 +14,15 @@ body {
   }
 }
 h2 {
-  font-size: clamp(1rem, 0.5rem + 2vw, 10rem);
+  font-size: clamp(1rem, 2rem + 2vw, 10rem);
   font-weight: 1000;
   color: blueviolet;
 }
 li {
-  font-size: clamp(0.5rem, 0.5rem + 1.5vw, 6rem);
+  font-size: clamp(1.2rem, 0.5rem + 1.5vw, 6rem);
 }
 p {
-  font-size: clamp(0.8rem, 0.4rem + 1.5vw, 8rem);
+  font-size: clamp(2.4rem, 0.4rem + 1.5vw, 8rem);
 }
 
 .container {
@@ -43,8 +43,7 @@ p {
 }
 .nav-div {
   flex-grow: 1;
-  min-width: 446px;
-  max-width: 50%;
+  min-width: 300px;
 }
 .nav-list {
   display: flex;
@@ -57,8 +56,8 @@ p {
 }
 .home {
   padding-right: 5vh;
-  padding-top: 10vh;
+  padding-top: 2vh;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 715px) {
 }
