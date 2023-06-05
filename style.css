@@ -2,7 +2,29 @@ body {
   font-family: "Bebas Neue", sans-serif;
   font-family: "Cormorant", serif;
   font-family: "M PLUS 1 Code", sans-serif;
+  animation: animateText 1.8s;
 }
+@keyframes animateText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+h2 {
+  font-size: clamp(1rem, 0.5rem + 2vw, 10rem);
+  font-weight: 1000;
+  color: blueviolet;
+}
+li {
+  font-size: clamp(0.5rem, 0.5rem + 1.5vw, 6rem);
+}
+p {
+  font-size: clamp(0.8rem, 0.4rem + 1.5vw, 8rem);
+}
+
 .container {
   padding: 0 10vw;
   margin: 0 auto;
@@ -21,16 +43,22 @@ body {
 }
 .nav-div {
   flex-grow: 1;
+  min-width: 446px;
   max-width: 50%;
 }
 .nav-list {
   display: flex;
+  justify-content: flex-end;
   padding: 0;
   list-style: none;
 }
 .nav-list li {
-  flex: 1;
+  max-width: 180px;
+}
+.home {
+  padding-right: 5vh;
+  padding-top: 10vh;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 800px) {
 }
