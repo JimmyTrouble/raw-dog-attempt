@@ -19,7 +19,7 @@ h2 {
   color: blueviolet;
 }
 li {
-  font-size: clamp(1.2rem, 0.5rem + 1.5vw, 6rem);
+  font-size: clamp(1.2rem, 0.8rem + 1.5vw, 6rem);
 }
 p {
   font-size: clamp(2.4rem, 0.4rem + 1.5vw, 8rem);
@@ -35,6 +35,7 @@ p {
   height: 100%;
   display: flex;
   -webkit-box-align: center;
+  justify-content: space-between;
   align-items: center;
 }
 .home-tittle {
@@ -53,11 +54,12 @@ p {
 }
 .nav-list li {
   max-width: 180px;
+  flex-grow: 1;
 }
 .home {
   padding-right: 5vh;
   padding-top: 2vh;
 }
 
-@media (max-width: 715px) {
+@media (max-width: 750px) {
 }
